@@ -1,0 +1,12 @@
+server:
+  port: 8081
+
+omdb:
+  movie:
+    baseusrl: http://www.omdbapi.com
+    apikey: ${MOVIE_API_KEY}
+
+
+openai:
+  base-url: https://api.openai.com/v1/chat/completions
+  api-key: ${GPT_API_KEY}
